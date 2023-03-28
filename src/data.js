@@ -121,7 +121,7 @@ export const projectsData = [
     github: 'GitHub',
     project: 'Project',
     target: '_blank',
-    href: 'https://github.com/DavidNkana/my-portfolio-website',
+    href: 'https://github.com/DavidNkana/my-portfolio-website/',
     hrefProject: 'https://davidnkana.vercel.app/'
   },
   {
