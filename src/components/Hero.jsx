@@ -9,7 +9,7 @@ const Hero = () => {
                 <div className="flex-1 flex flex-col items-center lg:items-start">
                     <p className='text-lg text-accent mb-[22px] before:opacity-50 before:content-portfolio relative before:absolute  before:-top-[2rem] before:hidden before:lg:block'>Hi! I'm David 😊</p>
                     <h1 className='text-2xl leading-[44px] md:text-3xl md:leading-tight lg:text-5xl lg:leading[1.2] font-bold md:tracking-[-2px] mb-4'>I'm a Front-end Developer, UI/UX Designer and Game Developer</h1>
-                    <button className='btn mt-4 btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all'><a href="#">Download Resume</a></button>
+                    <button className='btn mt-4 btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all'><a href="https://drive.google.com/file/d/1QVXwDE828JmSwCy5IA9sb8rbs5L2hef2/view?usp=sharing">Download Resume</a></button>
                 </div>
                 <div className="hidden lg:flex flex-1 justify-end items-end ">
                     <img src={Img} alt="" />
