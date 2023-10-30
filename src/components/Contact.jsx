@@ -11,18 +11,6 @@ const Result = () => {
 
 const Contact = () => {
     const [result, showResult] = useState(false)
-    const sendEmail = (e) => {
-        e.preventDefault();
-    
-        emailjs.sendForm('gmail', 'template_so29jzr', e.target, 'MlCY4iuMdEO5HKeje')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-          e.target.reset();
-          showResult(true)
-      };
 
   return (
     <section className='section bg-primary ' id='contact'>
@@ -53,17 +41,18 @@ const Contact = () => {
                 })}
             </div>
 
-                <form className='space-y-8 w-full max-w-[780px]' onSubmit={sendEmail}>
+                <form className='space-y-8 w-full max-w-[780px]' action='https://formsubmit.co/davidnkana74@gmail.com' method='POST'>
                     <div className="flex gap-8">
-                        <input name='name' className='input ' placeholder='Enter your name' type="text" required />
+                        <input name='name' className='input ' placeholder='Enter your full name' type="text" required />
                         <input name='email' className='input ' placeholder='Enter your email' type="email" required />
                     </div>
+                    <input type="number" placeholder='Phone Number' className='input' name='number'/>
                     <input type="text" placeholder='Subject' className='input' name='subject'/>
                     <textarea  name="message" className='textarea' placeholder='Enter your message' required></textarea>
                     <div className="row">
                         {result ? <Result /> : null}
                     </div>
-                    <button className='btn btn-lg bg-accent hover:bg-accent-hover'>Send</button>
+                    <button className='btn btn-lg bg-accent hover:bg-accent-hover' type='submit'>Send</button>
                     
                 </form>
             

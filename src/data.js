@@ -18,7 +18,7 @@ import FreelancerBrandIcon from './assets/img/brands/brand1.png';
 import UpworkBrandIcon from './assets/img/brands/brand3.png';
 
 // projects images
-import Project1 from './assets/img/projects/ai-cohort.jpg';
+import Project1 from './assets/img/projects/xpo.jpg';
 import Project2 from './assets/img/projects/sort.jpg';
 import Project3 from './assets/img/projects/portfolio.jpg';
 import Project4 from './assets/img/projects/mult1.jpg';
@@ -90,14 +90,14 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'AI Cohort',
-    description: 'AI Cohort is a natural language processing (NPL) tool. It uses machine learning to generate human-like answers to prompts by referring to large amounts of text in its training examples. It is made with HTML, CSS and Javascript (Express, Node.js and OpenAI application programming interface)',
-    category: 'web development',
+    name: 'Space Xpo',
+    description: "I am crafting a thrilling space survival game, challenging players to navigate through the cosmos, manage resources, and overcome obstacles to ensure their character's survival in the vast unknown.",
+    category: 'game development',
     github: 'GitHub',
     project: 'Project',
     target: '_blank',
-    hrefProject: 'https://ai-cohort.vercel.app/',
-    href: 'https://github.com/DavidNkana/AI-Cohort2'
+    hrefProject: 'https://davidzzzzz.itch.io/space-xpo-prototype',
+    href: '#'
   },
   {
     id: '2',
@@ -116,7 +116,7 @@ export const projectsData = [
     id: '3',
     image: Project3,
     name: 'My Portfolio Website',
-    description: " This portfolio was built with React.js, Tailwind.css amd emailJS for the form, combining the latest web technologies to create a mobile-friendly, visually appealing portfolio that effectively displays and showcases my front-end developer experiences.",
+    description: " This portfolio was built with React.js, Tailwind.css amd FormSubmit for the form, combining the latest web technologies to create a mobile-friendly, visually appealing portfolio that effectively displays and showcases my front-end developer experiences.",
     category: 'web development',
     github: 'GitHub',
     project: 'Project',
